@@ -1,0 +1,65 @@
+body{
+    display: grid;
+    place-items: center;
+    background-color: rgb(255, 213, 226);
+}
+#box{
+width: 300px;
+height: 300px;
+margin-top: 150px;
+text-align: center;
+}
+#tringle{
+    width: 300px;
+    height: 250px;
+    background-color: rgb(255, 84, 112);
+    clip-path: polygon(
+        45% 0%,
+        55% 0%,
+        100% 40%,
+        100% 100%,
+        100% 100%,
+        25% 100%,
+        0% 100%,
+        0% 40%
+        
+    );
+    float: left;
+}
+#tringle2{
+    margin: 105px 00px;
+    position:relative;
+    border-left: 0px solid transparent;
+    border-right: 300px solid transparent;
+    border-bottom: 163px solid rgb(255, 174, 174);
+}
+#tringle3{
+    margin: -267px 00px;
+    position:relative;
+    border-left: 300px solid transparent;
+    border-right: 0px solid transparent;
+    border-bottom: 163px solid #ff9090;
+}
+#shadow{
+    margin-top: 267px;
+    position:inherit;
+    border-radius: 100%;
+    width: 300px;
+    height: 30px;
+    background-color:rgba(0, 0, 0, 0.365);
+}
+#card{
+    position:absolute;
+    margin-top: 100px;
+    margin-left: -279px;
+    background-color: rgb(0, 0, 0);
+    width: 250px;
+    height: 150px;
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 8px;
+    transition: 3s ease-out;
+}
+#card:hover{
+    cursor: pointer;
+    margin-top: -15px;
+}
